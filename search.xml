@@ -4,28 +4,9 @@
   
     
     <entry>
-      <title>PR教程</title>
-      <link href="/2023/06/21/PR%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA/"/>
-      <url>/2023/06/21/PR%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA/</url>
-      
-        <content type="html"><![CDATA[<h2 id="如何简单的制作一期动漫pv"><a href="#如何简单的制作一期动漫pv" class="headerlink" title="如何简单的制作一期动漫pv"></a>如何简单的制作一期动漫pv</h2><img src="https://leavefog.asia/img/qr.jpg" alt="加载失败" title="截图"><hr><br><h3>制作一期动漫PV需要以下步骤：</h3><ol><li>制定故事梗概和剧本，确定故事情节和角色设定。</li><li>设计角色形象和场景，包括角色造型、服装、场景布置等。</li><li>制作故事板，即将剧本中每一场景绘制成草图，确定画面构图和动画效果。</li><li>制作原画，即在故事板的基础上进行细化和润色，将每一帧画面绘制成高质量的原画。</li><li>进行动画制作，包括分镜、动作设计、色彩设计、特效制作等。</li><li>制作背景音乐和音效，为动画加上适合的音乐和声效。</li><li>进行后期制作，包括剪辑、音效合成、字幕制作等。</li><li>完成后进行渲染，将动画制作成视频格式。</li><li>发布和宣传，将制作好的动画PV发布到各大视频平台和社交媒体上，进行宣传和推广。</li></ol><br><hr><h3>源文件操作思路</h3><h4>1.首先拿到电影或动漫mkv文件，对mkv文件进行分流处理，提取视频文件，音轨文件，字幕文件等。在这里我采用mkvtoolnix-gui 专业软件进行分流。</h4><img src="https://leavefog.asia/img/p1.png" alt="加载失败" title="截图"><h4>2.在分流成功后拿取到了视频文件和音频文件，由于PR - 2019 不支持mkv文件格式所以我们采用格式转换器转换为mp4文件的同时进行合流操作。操作软件：格式工厂</h4><img src="https://leavefog.asia/img/p2.png" alt="加载失败" title="这是截图"><h4>3.到此你的源文件就已经处理好了，这样就避免了水印和其他字幕的干扰，就可以安安心心的用pr进行剪辑啦。</h4><br><hr><h3>PV类视频要点</h3><h4>1.设计有趣的故事情节：一个好的故事情节是PV成功的关键之一。故事情节需要有趣、紧凑、引人入胜，能够吸引观众的注意力。</h4><h4>2.确定高潮和低谷：在故事情节中，需要确定高潮和低谷，让情节有明显的起伏。高潮是故事情节的关键节点，需要让观众感到紧张、兴奋、激动，而低谷则是高潮的反转，让观众感到失落、沮丧、紧张。</h4><h4>3.设计音乐和音效：音乐和音效可以帮助情节的跌宕起伏更加明显。在高潮时，可以使用紧张、激烈的音乐和音效，让观众感到紧张和兴奋；在低谷时，可以使用悲伤、沉闷的音乐和音效，让观众感到失落和沮丧。</h4><h4>4.设计画面效果：画面效果也可以帮助情节的跌宕起伏更加明显。在高潮时，可以使用快速、剧烈的画面变化，让观众感到紧张和兴奋；在低谷时，可以使用缓慢、柔和的画面变化，让观众感到失落和沮丧。</h4><h4>5.控制节奏：在制作PV时，需要控制节奏，让情节的跌宕起伏更加明显。可以使用快速的剪辑和画面变化来加快节奏，让情节更加紧凑；在高潮和低谷时，可以使用缓慢的剪辑和画面变化来慢下节奏，让观众更好地感受情节的变化。</h4><h3>综上所述，要让PV情节具有跌宕起伏，需要在故事情节、音乐和音效、画面效果和节奏控制等方面下功夫，让观众在观看PV时能够体验到情节的起伏和变化。</h3><br><hr><h3>片头操作，字幕操作</h3><h4>1.字幕操作:如何制作大量字幕？这时候就需要用到PS进行数据源操作。新建txt文件，将字幕放在txt文件中，注意采用utf-8格式。<img src="https://leavefog.asia/img/p3.png" alt="加载失败" title="这是截图">文件-导入-变量数据组-选择文件-确定-匹配数据-确定-导出-数据组作为文件<img src="https://leavefog.asia/img/p4.png" alt="加载失败" title="这是截图">完成上述操作后字幕将一帧一帧的导出来，直接将文件家拖拽到PR中用w键进行字幕校准。</h4><img src="https://leavefog.asia/img/p5.png" alt="加载失败" title="这是截图"><h4>2.片头制作：<img src="https://leavefog.asia/img/p6.png" alt="加载失败" title="这是截图">第一种方法：这里采取AE软件进行操作，这里不过多赘述。第二种方法：ps制作简单片头，视频是一帧一帧组成的，所以我们可以采取ps来制作可动的文字片头。</h4><h3>简单的pv作品展示</h3><p><a href="https://www.bilibili.com/video/BV16k4y1v7c5/?spm_id_from=333.999.0.0&vd_source=75787b7d34a69900c830b6c0b9b66726">视频展示</a></p><iframe src="//player.bilibili.com/player.html?aid=739678687&bvid=BV16k4y1v7c5&cid=1086560403&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      
-      
-      <categories>
-          
-          <category> 教程 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>国外部落冲突辅助教程</title>
-      <link href="/2023/05/21/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81%E6%95%99%E7%A8%8B/"/>
-      <url>/2023/05/21/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81%E6%95%99%E7%A8%8B/</url>
+      <link href="/2023/06/22/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81%E6%95%99%E7%A8%8B/"/>
+      <url>/2023/06/22/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81%E6%95%99%E7%A8%8B/</url>
       
         <content type="html"><![CDATA[<h2 id="部落冲突辅助国外教程！"><a href="#部落冲突辅助国外教程！" class="headerlink" title="部落冲突辅助国外教程！"></a>部落冲突辅助国外教程！</h2><p>只能主世界打资源，夜世界不能操作。<br>1.0<br>安装autoit，配置autoit运行环境。<br>版本：3.3.14.5<br><img src="https://leavefog.asia/postimg/3.png" alt="加载失败"><br><br></p><hr>2.02．安装nox模拟器安装nox，改成韩语，然后安装coc谷歌版本，启动coc，nox会自动更新到最新版本，最新版本才可以运行coc谷歌版本。登录coc，改coc语言为英语。（Mybot只能运行语言版本的coc）最后nox模拟器可以改成中文，没有影响。<img src="https://leavefog.asia/postimg/4.png" alt="加载失败"><br><hr>3.0打开nox模拟器的adb，自行百度。<br><hr>4.0github中下载代码,解压并运行代码.<img src="https://leavefog.asia/postimg/5.png" alt="加载失败">用这个去运行github解压文件夹中的MyBot.run.au3<br><hr>5.0自行配置mybot<img src="https://leavefog.asia/postimg/6.png" alt="加载失败"><img src="https://leavefog.asia/postimg/7.png" alt="加载失败"><a href="https://pan.baidu.com/s/1ZG-93IErB89mAXnSbQKgFw">使用文档及辅助下载</a><hr><br>注意：点击关注并私聊发送“辅助”获取得下载地址及提取码<a href="https://space.bilibili.com/430965558?spm_id_from=333.1007.0.0">关注链接</a><br><hr>说明：本文章只教如何去下载安装，使用过程出现问题概不负责。特别感谢：国际服一只袜子：狐狸]]></content>
       
@@ -43,8 +24,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2023/05/17/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
-      <url>/2023/05/17/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</url>
+      <link href="/2023/06/22/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
+      <url>/2023/06/22/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/</url>
       
         <content type="html"><![CDATA[<h2 id="欢迎来到我的世界！"><a href="#欢迎来到我的世界！" class="headerlink" title="欢迎来到我的世界！"></a>欢迎来到我的世界！</h2><p>Hi！I&#96;m 莘羽子,Welcome to my website!</p><p>I am glad you have found your way to my website on the internet and taken the time to visit. I hope this website becomes a useful, fun, and inspiring place for you, providing valuable information and resources.</p><p>The main purpose of this website is to share my knowledge and experience with everyone, while also offering some entertainment and relaxation moments. On my website, you can find various articles, blogs, videos, and other content covering multiple fields, including science, technology, culture, art, travel, lifestyle, and many more.</p><p>My team and I will keep updating and improving this website to ensure it has the best performance and user experience. If you have any suggestions or feedback during your usage, please do not hesitate to contact us.</p><p>Thank you for visiting my website. I hope you enjoy it and find the necessary information and fun from it. If you are interested, you can subscribe to our email list, so you can receive our latest updates and releases anytime.</p><p>Thank you!</p>]]></content>
       
@@ -62,8 +43,8 @@
     
     <entry>
       <title>国际服（部落冲突）</title>
-      <link href="/2023/05/15/%E5%9B%BD%E9%99%85%E6%9C%8D%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/"/>
-      <url>/2023/05/15/%E5%9B%BD%E9%99%85%E6%9C%8D%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/</url>
+      <link href="/2023/06/22/%E5%9B%BD%E9%99%85%E6%9C%8D%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/"/>
+      <url>/2023/06/22/%E5%9B%BD%E9%99%85%E6%9C%8D%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81/</url>
       
         <content type="html"><![CDATA[<p>Hello呀，这期为大家带来比较实用的软件！</p><hr><br>这次为大家找到了特殊的雷电模拟器版本，可解决国际服部落冲突无法在模拟器上运行的问题<hr><br>这是模拟器运行情况截图<img src="https://leavefog.asia/postimg/1.png" alt="加载失败" title="这是模拟器运行截图">这是部落冲突运行情况截图<img src="https://leavefog.asia/postimg/2.png" alt="加载失败" title="这是运行部落冲突的截图"><hr><br>这是下载链接：附带有谷歌15版本最新的部落冲突<a href="https://pan.baidu.com/s/1EoLyDDV6G8TQOwM2kWJrJQ">点击跳转下载</a><hr>注意：点击关注并私聊up获取提取码<br>特别鸣谢：国际服一只袜子：K神]]></content>
       
@@ -71,6 +52,25 @@
       <categories>
           
           <category> 安装包 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PR教程</title>
+      <link href="/2023/06/22/PR%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA/"/>
+      <url>/2023/06/22/PR%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何简单的制作一期动漫pv"><a href="#如何简单的制作一期动漫pv" class="headerlink" title="如何简单的制作一期动漫pv"></a>如何简单的制作一期动漫pv</h2><img src="https://leavefog.asia/img/qr.jpg" alt="加载失败" title="截图"><hr><br><h3>制作一期动漫PV需要以下步骤：</h3><ol><li>制定故事梗概和剧本，确定故事情节和角色设定。</li><li>设计角色形象和场景，包括角色造型、服装、场景布置等。</li><li>制作故事板，即将剧本中每一场景绘制成草图，确定画面构图和动画效果。</li><li>制作原画，即在故事板的基础上进行细化和润色，将每一帧画面绘制成高质量的原画。</li><li>进行动画制作，包括分镜、动作设计、色彩设计、特效制作等。</li><li>制作背景音乐和音效，为动画加上适合的音乐和声效。</li><li>进行后期制作，包括剪辑、音效合成、字幕制作等。</li><li>完成后进行渲染，将动画制作成视频格式。</li><li>发布和宣传，将制作好的动画PV发布到各大视频平台和社交媒体上，进行宣传和推广。</li></ol><br><hr><h3>源文件操作思路</h3><h4>1.首先拿到电影或动漫mkv文件，对mkv文件进行分流处理，提取视频文件，音轨文件，字幕文件等。在这里我采用mkvtoolnix-gui 专业软件进行分流。</h4><img src="https://leavefog.asia/img/p1.png" alt="加载失败" title="截图"><h4>2.在分流成功后拿取到了视频文件和音频文件，由于PR - 2019 不支持mkv文件格式所以我们采用格式转换器转换为mp4文件的同时进行合流操作。操作软件：格式工厂</h4><img src="https://leavefog.asia/img/p2.png" alt="加载失败" title="这是截图"><h4>3.到此你的源文件就已经处理好了，这样就避免了水印和其他字幕的干扰，就可以安安心心的用pr进行剪辑啦。</h4><br><hr><h3>PV类视频要点</h3><h4>1.设计有趣的故事情节：一个好的故事情节是PV成功的关键之一。故事情节需要有趣、紧凑、引人入胜，能够吸引观众的注意力。</h4><h4>2.确定高潮和低谷：在故事情节中，需要确定高潮和低谷，让情节有明显的起伏。高潮是故事情节的关键节点，需要让观众感到紧张、兴奋、激动，而低谷则是高潮的反转，让观众感到失落、沮丧、紧张。</h4><h4>3.设计音乐和音效：音乐和音效可以帮助情节的跌宕起伏更加明显。在高潮时，可以使用紧张、激烈的音乐和音效，让观众感到紧张和兴奋；在低谷时，可以使用悲伤、沉闷的音乐和音效，让观众感到失落和沮丧。</h4><h4>4.设计画面效果：画面效果也可以帮助情节的跌宕起伏更加明显。在高潮时，可以使用快速、剧烈的画面变化，让观众感到紧张和兴奋；在低谷时，可以使用缓慢、柔和的画面变化，让观众感到失落和沮丧。</h4><h4>5.控制节奏：在制作PV时，需要控制节奏，让情节的跌宕起伏更加明显。可以使用快速的剪辑和画面变化来加快节奏，让情节更加紧凑；在高潮和低谷时，可以使用缓慢的剪辑和画面变化来慢下节奏，让观众更好地感受情节的变化。</h4><h3>综上所述，要让PV情节具有跌宕起伏，需要在故事情节、音乐和音效、画面效果和节奏控制等方面下功夫，让观众在观看PV时能够体验到情节的起伏和变化。</h3><br><hr><h3>片头操作，字幕操作</h3><h4>1.字幕操作:如何制作大量字幕？这时候就需要用到PS进行数据源操作。新建txt文件，将字幕放在txt文件中，注意采用utf-8格式。<img src="https://leavefog.asia/img/p3.png" alt="加载失败" title="这是截图">文件-导入-变量数据组-选择文件-确定-匹配数据-确定-导出-数据组作为文件<img src="https://leavefog.asia/img/p4.png" alt="加载失败" title="这是截图">完成上述操作后字幕将一帧一帧的导出来，直接将文件家拖拽到PR中用w键进行字幕校准。</h4><img src="https://leavefog.asia/img/p5.png" alt="加载失败" title="这是截图"><h4>2.片头制作：<img src="https://leavefog.asia/img/p6.png" alt="加载失败" title="这是截图">第一种方法：这里采取AE软件进行操作，这里不过多赘述。第二种方法：ps制作简单片头，视频是一帧一帧组成的，所以我们可以采取ps来制作可动的文字片头。</h4><h3>简单的pv作品展示</h3><p><a href="https://www.bilibili.com/video/BV16k4y1v7c5/?spm_id_from=333.999.0.0&vd_source=75787b7d34a69900c830b6c0b9b66726">视频展示</a></p><iframe src="//player.bilibili.com/player.html?aid=739678687&bvid=BV16k4y1v7c5&cid=1086560403&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
           
       </categories>
       
