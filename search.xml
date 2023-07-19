@@ -4,11 +4,61 @@
   
     
     <entry>
-      <title>实用代码分享</title>
+      <title>常用的html标签</title>
+      <link href="/2023/07/19/html%E6%A0%87%E7%AD%BE%E7%AF%87/"/>
+      <url>/2023/07/19/html%E6%A0%87%E7%AD%BE%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<hr><h2>第一部分html标签</h2><h3><ol><li>html：定义 HTML 文档的根元素。</li><li>head：定义 HTML 文档的头部，包含元数据信息。</li><li>ol：定义文档的标题，显示在浏览器的标题栏或标签页上。</li><li>body：定义 HTML 文档的主体部分，包含可见内容。</li><li>h1 - h6：定义标题，从 1 到 6 级别，h1 为最高级别。</li><li>p：定义段落，用于组织文本内容。<li>a：定义超链接，用于创建指向其他网页、文件、位置或电子邮件地址的链接。</li><li>img：定义图像，用于在页面中插入图片。</li><li>div：定义一个块级容器，用于组合其他 HTML 元素，并用 CSS 进行样式化和布局控制。</li><li>span：定义内联容器，用于对文本或行内元素进行样式化。</li><li>ul：定义无序列表，以项目符号显示项目。</li><li>ol：定义有序列表，以数字或字母表示每个项目。</li><li>li：定义列表项，在无序或有序列表中表示每个项目。</li><li>table：定义表格，用于显示多行多列的数据。</li><li>tr：定义表格的行。</li><li>td：定义表格的单元格。</li><li>th：定义表格的表头单元格。</li><li>form：定义用于用户输入的表单。</li><li>input：定义输入字段，用于接收用户输入。</li><li>button：定义按钮，用于触发特定的操作或提交表单。</li><li>select：定义下拉列表框，供用户选择其中一个选项。</li><li>textarea：定义多行文本输入框，用于接收多行文本输入。</li><li>label：定义表单控件的标签。</li><li>fieldset：定义一组相关的表单元素。</li><li>legend：定义 fieldset 元素的标题。</li><li>iframe：定义内联框架，用于在当前页面中嵌入其他页面。</li><li>audio：定义音频播放器。</li><li>video：定义视频播放器。</li><li>script：定义客户端脚本，通常是 JavaScript。</li><li>style：定义内部样式表。</li><li>link：定义外部样式表或引入其他文件。</li><li>meta：定义关于 HTML 文档的元数据信息。</li></ol></h3><hr><h2>第二部分html标签</h2><h3><ol><li>header：定义文档或区域的页眉。</li><li>nav：定义导航链接的容器。</li><li>main：定义文档的主要内容，每个文档只能有一个元素。</li><li>article：定义独立的文章内容。</li><li>section：定义文档中的节或区域。</li><li>aside：定义页面的侧边栏内容。</li><li>footer：定义文档或区域的页脚。</li><li>figure：定义嵌入的图像、图表、照片等单独的内容块。</li><li>figcaption：定义 元素的标题或说明性文本。</li><li>blockquote：定义长引用，通常包含在中。</li><li>cite：定义引用的作品的标题。</li><li>abbr：定义缩写或首字母缩写。</li><li>code：定义计算机代码片段。</li><li>pre：定义预格式化的文本，保留空格和换行符的原始格式。</li><li>mark：定义突出显示的文本。</li><li>strong：定义重要的文本。</li><li>em：定义强调的文本。</li><li>sub：定义下标文本。</li><li>sup：定义上标文本。</li><li>hr：定义水平分隔线。</li><li>br：定义换行符。</li><li>progress：定义进度条。</li><li>meter：定义度量衡，例如温度或文件下载进度。</li><li>datalist：定义输入字段的选项列表。</li><li>optgroup：定义选择列表中的选项组。</li><li>option：定义选择列表中的选项。</li><li>iframe：定义嵌入的可视化窗口。</li><li>map：定义图像地图。</li><li>area：定义图像地图中的可点击区域。</li><li>canvas：定义绘图区域，用于通过 JavaScript 绘制图形。</li><li>svg定义可缩放矢量图形。</li><li>time：定义日期或时间。</li><li>details：定义用户可以查看或隐藏的额外详细信息。</li><li>summary：定义 元素的摘要或标题。</li></ol></h3><hr><h2>第三部分html标签</h2><h3><ol><li>address：定义联系信息或作者/拥有者的联系地址。</li><li>b：定义粗体文本。</li><li>big：定义大号文本。</li><li>center：定义居中对齐的内容（已被废弃，请使用 CSS 进行样式化）。</li><li>del：定义删除的文本。</li><li>dfn：定义术语的定义。</li><li>font：定义文本的字体、颜色和大小（已被废弃，请使用 CSS 进行样式化）。</li><li>ins：定义插入的文本。</li><li>kbd：定义键盘文本。</li><li>meter：定义度量衡，例如温度或文件下载进度。</li><li>output：定义计算的结果。</li><li>q：定义短引用。</li><li>rp：在不支持 ruby 注释显示时提供回退内容。</li><li>rt：定义 ruby 注释的解释。</li><li>ruby：定义 ruby 注释（用于东亚字符注音或字符解释）。</li><li>s：定义不准确或不相关的文本。</li><li>samp：定义计算机程序或脚本的示例输出。</li><li>small：定义小号文本。</li><li>strike：定义删除的文本（已被废弃，请使用del标签)。</li><li>strong：定义重要的文本。</li><li>sub：定义下标文本。</li><li>sup：定义上标文本。</li><li>tt：定义打字机或等宽文本。</li><li>u：定义带有下划线的文本。</li><li>var：定义变量。</li>这些标签可能不常用或已被废弃，因此在编写 HTML 页面时，应优先考虑使用语义化的标签，并结合 CSS 进行样式化和布局控制。</ol></h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> IT类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何注册自己的公众号</title>
+      <link href="/2023/07/19/%E5%A6%82%E4%BD%95%E6%B3%A8%E5%86%8C%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%88%E4%B8%AA%E4%BA%BA%EF%BC%89/"/>
+      <url>/2023/07/19/%E5%A6%82%E4%BD%95%E6%B3%A8%E5%86%8C%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%88%E4%B8%AA%E4%BA%BA%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<hr><h2>（一）注册流程</h2><ol>    <li>使用电脑登录网址:https://mp.weixin.qq.com <a href="https://mp.weixin.qq.com">点击我跳转</a></li>    <img src="http://yxt.leavefog.asia/postimg/g1.png" alt="">    <li>点击立即注册</li>    <img src="http://yxt.leavefog.asia/postimg/g2.png" alt="">    <li>选择注册订阅号</li>    <img src="http://yxt.leavefog.asia/postimg/g3.png" alt="">    <li>填写邮箱地址，获取邮箱激活码，填写密码用于登录公众号</li>    <img src="http://yxt.leavefog.asia/postimg/g4.png" alt="">    <li>点击注册</li>    <li>选择国家地区：中国大陆</li>    <img src="http://yxt.leavefog.asia/postimg/g5.png" alt="">    <li>选择注册订阅号</li>    <img src="http://yxt.leavefog.asia/postimg/g6.png" alt="">    <li>选择注册账号主体为：个人</li>    <img src="http://yxt.leavefog.asia/postimg/g7.png" alt="">    <li>填写个人详细资料，并绑定自己的微信进行人脸识别（微信必须绑定银行卡），创作者信息可以不填。完成以上操作后点击继续</li>    <img src="http://yxt.leavefog.asia/postimg/g8.png" alt="">    <li>填写公众号信息（如公众号名称，服务范围，描述等）由于作者已经注册过了，这里就不演示了</li>    <li>当所有注册信息填写完毕且确认无误后，提交注册信息</li>    <li>点击提交后可以登陆进行管理公众号了（注意：可能有七天的审核期，需要等待审核通过后别人才可以搜到你的公众号）</li></ol><hr><h2>（二）部分基础功能教学</h2><ol>    <li>登录刚注册的公众号（微信扫码登录或邮箱登录）</li>    <li>登陆成功后，可以看到该页面</li>    <img src="http://yxt.leavefog.asia/postimg/g9.png" alt="">    <li>草稿箱:用于文章创作，一般选择图文创作即可，使用起来和word类似，可以插入视频，图片，音频等<b>注意：当你编辑好文章后一定要预览！！！预览后觉得没问题就点击群发，群发后其他人就可以看到你的文章了</b></li>    <img src="http://yxt.leavefog.asia/postimg/g10.png" alt="">    <li>素材箱:不多介绍，自己上传素材即可</li>    <li>自动回复:这里根据需求自行设定</li>    <img src="http://yxt.leavefog.asia/postimg/g11.png" alt="">    <li>自定义菜单:设置菜单跳转不同的页面（先点击添加菜单，然后在编辑发送消息，跳转网页，跳转小程序等功能）</li>    <img src="http://yxt.leavefog.asia/postimg/g12.png" alt="">    <li>号内搜索:建议开启</li></ol><h3>完成以上步骤后，恭喜你拥有了自己的公众号</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> IT类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 公众号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自动发送邮件代码</title>
       <link href="/2023/07/09/%E5%AE%9E%E7%94%A8%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
       <url>/2023/07/09/%E5%AE%9E%E7%94%A8%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
       
-        <content type="html"><![CDATA[<h4>自动发送邮件PY代码</h4><pre><code># 需要使用到SMTPLIB库来进行邮箱的连接import smtplib# 处理邮件内容的库，email.minefrom email.mime.text import MIMEText<p>#邮箱属性配置</p><p>#邮箱服务端<br>mailserver &#x3D; ‘smtp.163.com’<br>#发件人-填写自己的邮箱<br>userName_SendMail &#x3D; ‘<a href="mailto:&#x58;&#88;&#88;&#88;&#88;&#x58;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#x6d;">&#x58;&#88;&#88;&#88;&#88;&#x58;&#x40;&#49;&#x36;&#x33;&#x2e;&#99;&#x6f;&#x6d;</a>‘<br>#邮箱发件授权码-为发件人生成的授权码<br>userName_AuthCode &#x3D; ‘XXXXXXX’<br>#定义邮件的接收者-我随便写的，若收件人较多，可用列表表示<br>received_mail &#x3D; [‘<a href="mailto:&#88;&#88;&#x58;&#88;&#x58;&#88;&#x58;&#88;&#88;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#88;&#88;&#x58;&#88;&#x58;&#88;&#x58;&#88;&#88;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a>‘, ‘<a href="mailto:&#x58;&#x58;&#x58;&#x58;&#88;&#88;&#x58;&#64;&#x71;&#113;&#46;&#99;&#111;&#109;">&#x58;&#x58;&#x58;&#x58;&#88;&#88;&#x58;&#64;&#x71;&#113;&#46;&#99;&#111;&#109;</a>‘]</p><p>#发送一封简单的邮件，处理邮件内容<br>content &#x3D; ‘服务器开机成功’<br>#纯文本形式的邮件内容的定义，通过MIMEText进行操作，plain为默认的文本的展示形式<br>email &#x3D; MIMEText(content, ‘plain’, ‘utf-8’)<br>email[‘Subject’] &#x3D; ‘服务器开机成功’  # 定义邮件主题<br>email[‘From’] &#x3D; userName_SendMail  # 发件人<br>email[‘To’] &#x3D; ‘,’.join(received_mail)  # 收件人（可以添加多个，若只有一个收件人，可直接写邮箱号）</p><p>#发送邮件</p><p>#QQ邮箱的端口号是465，其他邮箱的端口号可自行百度，非QQ邮箱，一般使用SMTP即可，不需要有SSL<br>smtp &#x3D; smtplib.SMTP(mailserver, port&#x3D;25)<br>smtp.login(userName_SendMail, userName_AuthCode)<br>smtp.sendmail(userName_SendMail, ‘,’.join(received_mail), email.as_string())</p><p>smtp.quit()<br>print(‘恭喜，邮件发送成功了’)<br></code><br></pre></p>]]></content>
+        <content type="html"><![CDATA[<h4>自动发送邮件PY代码</h4><pre><code># 需要使用到SMTPLIB库来进行邮箱的连接import smtplib# 处理邮件内容的库，email.minefrom email.mime.text import MIMEText<p>#邮箱属性配置</p><p>#邮箱服务端<br>mailserver &#x3D; ‘smtp.163.com’<br>#发件人-填写自己的邮箱<br>userName_SendMail &#x3D; ‘<a href="mailto:&#88;&#88;&#x58;&#88;&#x58;&#88;&#x40;&#x31;&#54;&#51;&#x2e;&#x63;&#111;&#x6d;">&#88;&#88;&#x58;&#88;&#x58;&#88;&#x40;&#x31;&#54;&#51;&#x2e;&#x63;&#111;&#x6d;</a>‘<br>#邮箱发件授权码-为发件人生成的授权码<br>userName_AuthCode &#x3D; ‘XXXXXXX’<br>#定义邮件的接收者-我随便写的，若收件人较多，可用列表表示<br>received_mail &#x3D; [‘<a href="mailto:&#x58;&#x58;&#88;&#x58;&#x58;&#88;&#88;&#88;&#88;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;">&#x58;&#x58;&#88;&#x58;&#x58;&#88;&#88;&#88;&#88;&#x40;&#x71;&#x71;&#x2e;&#x63;&#111;&#109;</a>‘, ‘<a href="mailto:&#88;&#88;&#88;&#x58;&#88;&#x58;&#x58;&#x40;&#x71;&#113;&#46;&#99;&#111;&#109;">&#88;&#88;&#88;&#x58;&#88;&#x58;&#x58;&#x40;&#x71;&#113;&#46;&#99;&#111;&#109;</a>‘]</p><p>#发送一封简单的邮件，处理邮件内容<br>content &#x3D; ‘服务器开机成功’<br>#纯文本形式的邮件内容的定义，通过MIMEText进行操作，plain为默认的文本的展示形式<br>email &#x3D; MIMEText(content, ‘plain’, ‘utf-8’)<br>email[‘Subject’] &#x3D; ‘服务器开机成功’  # 定义邮件主题<br>email[‘From’] &#x3D; userName_SendMail  # 发件人<br>email[‘To’] &#x3D; ‘,’.join(received_mail)  # 收件人（可以添加多个，若只有一个收件人，可直接写邮箱号）</p><p>#发送邮件</p><p>#QQ邮箱的端口号是465，其他邮箱的端口号可自行百度，非QQ邮箱，一般使用SMTP即可，不需要有SSL<br>smtp &#x3D; smtplib.SMTP(mailserver, port&#x3D;25)<br>smtp.login(userName_SendMail, userName_AuthCode)<br>smtp.sendmail(userName_SendMail, ‘,’.join(received_mail), email.as_string())</p><p>smtp.quit()<br>print(‘恭喜，邮件发送成功了’)<br></code><br></pre></p>]]></content>
       
       
       <categories>
