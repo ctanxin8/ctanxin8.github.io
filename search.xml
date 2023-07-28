@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>简单的错误纠正框架（自用）</title>
+      <link href="/2023/07/28/%E7%AE%80%E5%8D%95%E7%9A%84%E9%94%99%E8%AF%AF%E7%BA%A0%E6%AD%A3%E6%A1%86%E6%9E%B6/"/>
+      <url>/2023/07/28/%E7%AE%80%E5%8D%95%E7%9A%84%E9%94%99%E8%AF%AF%E7%BA%A0%E6%AD%A3%E6%A1%86%E6%9E%B6/</url>
+      
+        <content type="html"><![CDATA[<pre><code>import threadingimport timeimport osscript_path = os.path.basename(__file__)  # 获取当前程序名字script_path = script_path[:-3]  # 去掉后缀.pyprint("当前程序路径脚本路径:", script_path)def long_running_task():    # 主程序.....    try:        print("进入主程序")        #示例        for x in range(1,21):            print(x)            time.sleep(1)    except:        # 发生错误执行程序        print("发生致命错误")def monitor_thread():    print("启动监督程序")    # 监督程序    timed = threading.Thread(target=long_running_task)  # 设置线程叫timed    timed.start()  # 开始该线程    timed.join(12)  # 设置超时时间为12秒    if timed.is_alive():  # 如果线程仍然存活（即超时）        print("程序超时，即将结束...")        cmd = 'TASKKILL /IM '+script_path + '.exe /F'        print(cmd)        time.sleep(2)        os.popen(cmd)monitor_thread()</code></pre><p><strong>该程序适用于pyinstaller打包后的exe程序</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> IT类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软件分享篇-23.7.24（滴滴动漫，CHatAi，青柠设计，多邻国）</title>
       <link href="/2023/07/24/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E4%B9%8B2023.7.24/"/>
       <url>/2023/07/24/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E4%B9%8B2023.7.24/</url>
