@@ -349,3 +349,110 @@ svg.icon {
     box-shadow: 0px 0px 1px 1px #9ad1e8;
   }
 }
+
+/*顶部加载条*/
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: 2000;
+    position: fixed;
+    margin: auto;
+    top: 4px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    border-radius: 8px;
+    width: 7rem;
+    background: #eaecf2;
+    border: 1px #e3e8f7;
+    overflow: hidden
+}
+
+.pace-inactive .pace-progress {
+    opacity: 0;
+    transition: .3s ease-in
+}
+
+.pace .pace-progress {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    max-width: 200px;
+    position: absolute;
+    z-index: 2000;
+    display: block;
+    top: 0;
+    right: 100%;
+    height: 100%;
+    width: 100%;
+    /* linear-gradient(to right, #3494e6, #ec6ead) */
+    background: linear-gradient(to right, #43cea2, #3866ca);
+    animation: gradient 2s ease infinite;
+    background-size: 200%
+}
+
+.pace.pace-inactive {
+    opacity: 0;
+    transition: .3s;
+    top: -8px
+}
+ /*统计图的明暗适配*/
+ function switchPostChart () {
+  // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义
+  let color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4C4948' : 'rgba(255,255,255,0.7)'
+  if (document.getElementById('posts-chart') && postsOption) {
+    try {
+      let postsOptionNew = postsOption
+      postsOptionNew.title.textStyle.color = color
+      postsOptionNew.xAxis.nameTextStyle.color = color
+      postsOptionNew.yAxis.nameTextStyle.color = color
+      postsOptionNew.xAxis.axisLabel.color = color
+      postsOptionNew.yAxis.axisLabel.color = color
+      postsOptionNew.xAxis.axisLine.lineStyle.color = color
+      postsOptionNew.yAxis.axisLine.lineStyle.color = color
+      postsOptionNew.series[0].markLine.data[0].label.color = color
+      postsChart.setOption(postsOptionNew)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  if (document.getElementById('tags-chart') && tagsOption) {
+    try {
+      let tagsOptionNew = tagsOption
+      tagsOptionNew.title.textStyle.color = color
+      tagsOptionNew.xAxis.nameTextStyle.color = color
+      tagsOptionNew.yAxis.nameTextStyle.color = color
+      tagsOptionNew.xAxis.axisLabel.color = color
+      tagsOptionNew.yAxis.axisLabel.color = color
+      tagsOptionNew.xAxis.axisLine.lineStyle.color = color
+      tagsOptionNew.yAxis.axisLine.lineStyle.color = color
+      tagsOptionNew.series[0].markLine.data[0].label.color = color
+      tagsChart.setOption(tagsOptionNew)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  if (document.getElementById('categories-chart') && categoriesOption) {
+    try {
+      let categoriesOptionNew = categoriesOption
+      categoriesOptionNew.title.textStyle.color = color
+      categoriesOptionNew.legend.textStyle.color = color
+      if (!categoryParentFlag) { categoriesOptionNew.series[0].label.color = color }
+      categoriesChart.setOption(categoriesOptionNew)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+}
+document.getElementById("mode-button").addEventListener("click", function () { setTimeout(switchPostChart, 100) })
+
