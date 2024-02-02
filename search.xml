@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>AE教程</title>
-      <link href="/2023/12/21/AE%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA/"/>
-      <url>/2023/12/21/AE%E4%BD%9C%E5%93%81%E5%B1%95%E7%A4%BA/</url>
-      
-        <content type="html"><![CDATA[<h2 id="如何简单的制作一期动漫pv"><a href="#如何简单的制作一期动漫pv" class="headerlink" title="如何简单的制作一期动漫pv"></a>如何简单的制作一期动漫pv</h2><ol><li>制定故事梗概和剧本，确定故事情节和角色设定。</li><li>设计角色形象和场景，包括角色造型、服装、场景布置等。</li><li>制作故事板，即将剧本中每一场景绘制成草图，确定画面构图和动画效果。</li><li>制作原画，即在故事板的基础上进行细化和润色，将每一帧画面绘制成高质量的原画。</li><li>进行动画制作，包括分镜、动作设计、色彩设计、特效制作等。</li><li>制作背景音乐和音效，为动画加上适合的音乐和声效。</li><li>进行后期制作，包括剪辑、音效合成、字幕制作等。</li><li>完成后进行渲染，将动画制作成视频格式。</li><li>发布和宣传，将制作好的动画PV发布到各大视频平台和社交媒体上，进行宣传和推广。</li></ol><br><h3>作品展示</h3>AE作品1<iframe src="//player.bilibili.com/player.html?aid=580085329&bvid=BV1M64y1W7hd&cid=1375334987&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><br>AE作品2【完全终极版】AE2制作人员如下：<h4>摄影：姚闽，王霜，刘歆宇<p>文案：姚闽，刘歆宇</p><p>素材：刘歆宇，姚闽，王霜</p><p>片头；刘歆宇</p><p>前场：刘歆宇</p><p>中场：刘歆宇</p><p>后场；刘歆宇</p><p>片尾；刘歆宇</p><p>花絮；刘歆宇</p><p>字幕：刘歆宇</p><p>文案校对：刘歆宇</p><p>音频校对：刘歆宇</p><p>字幕校对：刘歆宇</p><p>分镜：刘歆宇</p><p>特效；刘歆宇</p><p>剪辑：刘歆宇</p><p>渲染：刘歆宇</p><p>监制：刘歆宇</p></h4>作品<iframe src="//player.bilibili.com/player.html?aid=495054513&bvid=BV1wK411872M&cid=1375340843&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      
-      
-      <categories>
-          
-          <category> 影视剪辑类 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Pr </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>如何在虚拟机里安装双系统</title>
       <link href="/2023/11/01/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E4%B8%A4%E4%B8%AA%E5%8F%8A%E4%BB%A5%E4%B8%8A%E7%9A%84%E7%B3%BB%E7%BB%9F/"/>
       <url>/2023/11/01/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E4%B8%A4%E4%B8%AA%E5%8F%8A%E4%BB%A5%E4%B8%8A%E7%9A%84%E7%B3%BB%E7%BB%9F/</url>
@@ -208,7 +183,7 @@
       <link href="/2023/07/09/%E5%AE%9E%E7%94%A8%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/"/>
       <url>/2023/07/09/%E5%AE%9E%E7%94%A8%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB/</url>
       
-        <content type="html"><![CDATA[<h4>自动发送邮件PY代码</h4><pre><code># 需要使用到SMTPLIB库来进行邮箱的连接import smtplib# 处理邮件内容的库，email.minefrom email.mime.text import MIMEText<p>#邮箱属性配置</p><p>#邮箱服务端<br>mailserver &#x3D; ‘smtp.163.com’<br>#发件人-填写自己的邮箱<br>userName_SendMail &#x3D; ‘<a href="mailto:&#88;&#x58;&#x58;&#88;&#x58;&#88;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#x6d;">&#88;&#x58;&#x58;&#88;&#x58;&#88;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#x6d;</a>‘<br>#邮箱发件授权码-为发件人生成的授权码<br>userName_AuthCode &#x3D; ‘XXXXXXX’<br>#定义邮件的接收者-我随便写的，若收件人较多，可用列表表示<br>received_mail &#x3D; [‘<a href="mailto:&#88;&#x58;&#x58;&#x58;&#x58;&#x58;&#88;&#x58;&#x58;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#x6d;">&#88;&#x58;&#x58;&#x58;&#x58;&#x58;&#88;&#x58;&#x58;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#x6d;</a>‘, ‘<a href="mailto:&#88;&#88;&#x58;&#x58;&#88;&#88;&#x58;&#x40;&#113;&#113;&#x2e;&#99;&#111;&#109;">&#88;&#88;&#x58;&#x58;&#88;&#88;&#x58;&#x40;&#113;&#113;&#x2e;&#99;&#111;&#109;</a>‘]</p><p>#发送一封简单的邮件，处理邮件内容<br>content &#x3D; ‘服务器开机成功’<br>#纯文本形式的邮件内容的定义，通过MIMEText进行操作，plain为默认的文本的展示形式<br>email &#x3D; MIMEText(content, ‘plain’, ‘utf-8’)<br>email[‘Subject’] &#x3D; ‘服务器开机成功’  # 定义邮件主题<br>email[‘From’] &#x3D; userName_SendMail  # 发件人<br>email[‘To’] &#x3D; ‘,’.join(received_mail)  # 收件人（可以添加多个，若只有一个收件人，可直接写邮箱号）</p><p>#发送邮件</p><p>#QQ邮箱的端口号是465，其他邮箱的端口号可自行百度，非QQ邮箱，一般使用SMTP即可，不需要有SSL<br>smtp &#x3D; smtplib.SMTP(mailserver, port&#x3D;25)<br>smtp.login(userName_SendMail, userName_AuthCode)<br>smtp.sendmail(userName_SendMail, ‘,’.join(received_mail), email.as_string())</p><p>smtp.quit()<br>print(‘恭喜，邮件发送成功了’)<br></code><br></pre></p>]]></content>
+        <content type="html"><![CDATA[<h4>自动发送邮件PY代码</h4><pre><code># 需要使用到SMTPLIB库来进行邮箱的连接import smtplib# 处理邮件内容的库，email.minefrom email.mime.text import MIMEText<p>#邮箱属性配置</p><p>#邮箱服务端<br>mailserver &#x3D; ‘smtp.163.com’<br>#发件人-填写自己的邮箱<br>userName_SendMail &#x3D; ‘<a href="mailto:&#x58;&#x58;&#x58;&#x58;&#88;&#88;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x58;&#x58;&#x58;&#x58;&#88;&#88;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;</a>‘<br>#邮箱发件授权码-为发件人生成的授权码<br>userName_AuthCode &#x3D; ‘XXXXXXX’<br>#定义邮件的接收者-我随便写的，若收件人较多，可用列表表示<br>received_mail &#x3D; [‘<a href="mailto:&#x58;&#x58;&#x58;&#88;&#88;&#88;&#88;&#88;&#x58;&#64;&#113;&#113;&#46;&#99;&#x6f;&#109;">&#x58;&#x58;&#x58;&#88;&#88;&#88;&#88;&#88;&#x58;&#64;&#113;&#113;&#46;&#99;&#x6f;&#109;</a>‘, ‘<a href="mailto:&#x58;&#x58;&#x58;&#88;&#x58;&#88;&#88;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#109;">&#x58;&#x58;&#x58;&#88;&#x58;&#88;&#88;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#109;</a>‘]</p><p>#发送一封简单的邮件，处理邮件内容<br>content &#x3D; ‘服务器开机成功’<br>#纯文本形式的邮件内容的定义，通过MIMEText进行操作，plain为默认的文本的展示形式<br>email &#x3D; MIMEText(content, ‘plain’, ‘utf-8’)<br>email[‘Subject’] &#x3D; ‘服务器开机成功’  # 定义邮件主题<br>email[‘From’] &#x3D; userName_SendMail  # 发件人<br>email[‘To’] &#x3D; ‘,’.join(received_mail)  # 收件人（可以添加多个，若只有一个收件人，可直接写邮箱号）</p><p>#发送邮件</p><p>#QQ邮箱的端口号是465，其他邮箱的端口号可自行百度，非QQ邮箱，一般使用SMTP即可，不需要有SSL<br>smtp &#x3D; smtplib.SMTP(mailserver, port&#x3D;25)<br>smtp.login(userName_SendMail, userName_AuthCode)<br>smtp.sendmail(userName_SendMail, ‘,’.join(received_mail), email.as_string())</p><p>smtp.quit()<br>print(‘恭喜，邮件发送成功了’)<br></code><br></pre></p>]]></content>
       
       
       <categories>
