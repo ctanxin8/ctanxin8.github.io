@@ -161,19 +161,22 @@ function showWelcome() {
                             posdesc = "和站长是老乡欸。";
                             break;
                         case "成都市":
-                            posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";
+                            posdesc = "去春熙路逛一逛";
                             break;
                         case "巴中市":
-                            posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";
+                            posdesc = "恩阳古镇，古色古香。";
                             break;
                         case "雅安市":
-                            posdesc = "刚正不阿包青天。";
+                            posdesc = "蒙顶山上有熊猫吗？";
                             break;
-                        case "洛阳市":
-                            posdesc = "洛阳牡丹甲天下。";
+                        case "广安市":
+                            posdesc = "伟人故里、滨江之城。";
+                            break;
+                        case "甘孜州":
+                            posdesc = "康定古城走一走。";
                             break;
                         default:
-                            posdesc = "可否带我品尝河南烩面啦？";
+                            posdesc = "听听四川话捏~";
                             break;
                     }
                     break;
