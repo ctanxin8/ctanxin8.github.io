@@ -623,13 +623,13 @@ svg.icon {
 }
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://leavefog.asia/icon/card.png);
+  background-image: url(https://img.shenyuzi.com/icon/card.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://leavefog.asia/icon/card1.png);
+  background-image: url(https://img.shenyuzi.com/icon/card1.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
